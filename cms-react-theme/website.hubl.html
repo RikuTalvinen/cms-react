@@ -1,0 +1,15 @@
+<!--
+  templateType: page
+  isAvailableForNewContent: true
+  label: CMS React - Website
+-->
+{% extends "./layouts/base.hubl.html" %}
+
+{% block body %}
+
+  {% module
+    "cards"
+    path="@projects/cms-react-project/cms-react-app/components/modules/Cards",
+  %}
+
+{% endblock body %}
